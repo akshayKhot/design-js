@@ -1,4 +1,6 @@
-## Tailwind Sandbox
+## Tailwind + Stimulus Sandbox
+
+This repository builds upon my [design](https://github.com/akshayKhot/design) sandbox to add Javascript support with the Stimulus.js framework from Basecamp. 
 
 If you are tired of changing a Tailwind class, doing `alt + tab`, and reloading the whole app to see the change your made, give it a try.  
 
@@ -25,6 +27,7 @@ Run these commands in separate terminal tabs.
 ```bash
 yarn tailwind
 yarn server
+yarn js
 ```
 
 **npm**
@@ -32,6 +35,7 @@ yarn server
 ```bash
 npm run tailwind
 npm run server
+npm run js
 ```
 
 I prefer and recommend using yarn, it's very fast compared to npm. 
