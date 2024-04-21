@@ -21,7 +21,11 @@ yarn upgrade-interactive --latest
 
 ## Usage
 
-Run these commands in separate terminal tabs. 
+```bash
+yarn start
+```
+
+Alternatively, run these commands in separate terminal tabs. 
 
 **yarn**
 
