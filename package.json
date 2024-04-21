@@ -4,7 +4,8 @@
   "scripts": {
     "tailwind": "npx tailwindcss -i ./tailwind.css -o ./style.css --watch",
     "server": "browser-sync start --no-notify --server --files '*.html, *.css'",
-    "js": "npx esbuild javascript/app.js --bundle --sourcemap --watch --outfile=script.js"
+    "js": "npx esbuild javascript/app.js --bundle --sourcemap --watch --outfile=script.js",
+    "start": "yarn tailwind & yarn server & yarn js"
   },
   "dependencies": {
     "@hotwired/stimulus": "^3.0.1"
